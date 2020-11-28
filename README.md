@@ -3,4 +3,6 @@ This is the official repository for "build your own blockchain in Julia", an art
 
 The code in this repo is still under construction and all pre-alpha so I'd suggest you shouldn't touch it yet.
 
+### Ports and implementations
 
+A way to get involved is by sharing your own implementation of Bisquit. Ports to other languages are particularly useful since not every reader likes Julia. Feel free to add your Julia port or implementation to the wiki
