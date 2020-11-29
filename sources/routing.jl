@@ -14,6 +14,7 @@ blockchain = create_genesis( )
 # setup route adress on localhost
 route("/mine") do
 # do some stuff in here still wip todo
+  
 end
 
 # setup route adress on localhost
