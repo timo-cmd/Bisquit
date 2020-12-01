@@ -34,10 +34,10 @@ module Bisquit
 
 
     function new_transaction( blockchain::Blockchain, sender::String, recipient::String, amount::Int, )::int
-    # add some values in here wip todo
-    transaction = Transaction( sender, recipient, amount )
-    push!( blockchain.current_transactions, transaction )
-    return blockchain.chain[ end ].index + 1
+        # add some values in here wip todo
+        transaction = Transaction( sender, recipient, amount )
+        push!( blockchain.current_transactions, transaction )
+        return blockchain.chain[ end ].index + 1
     end
 
     function new_block( blockchain::Blockchain, proof::Int, previous_hash::String)::Block
